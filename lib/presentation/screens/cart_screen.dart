@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:product_list_app/models/cart.dart';
-import 'package:product_list_app/models/product.dart';
-import 'package:product_list_app/service/cart_service.dart';
-import 'package:product_list_app/service/product_service.dart';
+import 'package:product_list_app/data/models/cart.dart';
+import 'package:product_list_app/data/models/product.dart';
+import 'package:product_list_app/services/cart_service.dart';
+import 'package:product_list_app/services/product_service.dart';
 import 'package:product_list_app/cart/cart.dart';
 
 class CartScreen extends StatefulWidget {

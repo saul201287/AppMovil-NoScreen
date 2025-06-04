@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:http/http.dart' as http;
-import 'package:product_list_app/models/product.dart';
+import 'package:product_list_app/data/models/product.dart';
 
 class ProductService {
   final String url = 'https://fakestoreapi.com/';

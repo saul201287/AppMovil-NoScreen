@@ -1,6 +1,6 @@
-import 'package:product_list_app/models/cart.dart';
-import 'package:product_list_app/models/product.dart';
-import 'package:product_list_app/service/cart_service.dart';
+import 'package:product_list_app/data/models/cart.dart';
+import 'package:product_list_app/data/models/product.dart';
+import 'package:product_list_app/services/cart_service.dart';
 
 class Cart {
   static final List<CartItem> _items = [];

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../models/product.dart';
+import '../../data/models/product.dart';
 import 'product_detail_screen.dart';
-import '../service/product_service.dart';
+import '../../services/product_service.dart';
 
 class ProductListScreen extends StatefulWidget {
   @override
