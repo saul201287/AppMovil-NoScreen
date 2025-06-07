@@ -31,9 +31,10 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Product List App',
       debugShowCheckedModeBanner: false,
-      home: _currentUser == null
-          ? LoginScreen()
-          : HomeScreen(firebaseUser: _currentUser, userData: null),
+      home:
+          _currentUser == null
+              ? LoginScreen()
+              : HomeScreen(firebaseUser: _currentUser, userData: null),
     );
   }
 }
