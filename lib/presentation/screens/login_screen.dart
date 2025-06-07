@@ -147,58 +147,6 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
               ),
-
-              // Opción 2: Alternativa con ícono personalizado
-              // ElevatedButton.icon(
-              //   onPressed: loading ? null : loginWithGoogle,
-              //   icon: Container(
-              //     width: 24,
-              //     height: 24,
-              //     decoration: BoxDecoration(
-              //       color: Colors.red,
-              //       shape: BoxShape.circle,
-              //     ),
-              //     child: Center(
-              //       child: Text(
-              //         'G',
-              //         style: TextStyle(
-              //           color: Colors.white,
-              //           fontWeight: FontWeight.bold,
-              //           fontSize: 16,
-              //         ),
-              //       ),
-              //     ),
-              //   ),
-              //   label: Text('Google'),
-              //   style: ElevatedButton.styleFrom(
-              //     backgroundColor: Colors.white,
-              //     foregroundColor: Colors.black87,
-              //     minimumSize: Size(double.infinity, 50),
-              //     side: BorderSide(color: Colors.grey.shade300),
-              //     shape: RoundedRectangleBorder(
-              //       borderRadius: BorderRadius.circular(12),
-              //     ),
-              //   ),
-              // ),
-
-              // Opción 3: Solo con ícono de web/navegador
-              // ElevatedButton.icon(
-              //   onPressed: loading ? null : loginWithGoogle,
-              //   icon: Icon(
-              //     Icons.web,
-              //     color: Colors.blue,
-              //   ),
-              //   label: Text('Google'),
-              //   style: ElevatedButton.styleFrom(
-              //     backgroundColor: Colors.white,
-              //     foregroundColor: Colors.black87,
-              //     minimumSize: Size(double.infinity, 50),
-              //     side: BorderSide(color: Colors.grey.shade300),
-              //     shape: RoundedRectangleBorder(
-              //       borderRadius: BorderRadius.circular(12),
-              //     ),
-              //   ),
-              // ),
               if (error.isNotEmpty)
                 Padding(
                   padding: const EdgeInsets.only(top: 16),
